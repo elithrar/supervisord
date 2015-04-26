@@ -18,7 +18,7 @@ This image:
 
 Here's how to extend it with a simple example—a Go webserver container:
 
-```go
+```
 # some-app
 #
 # VERSION       0.1.0
@@ -42,7 +42,7 @@ EXPOSE 8000
 
 Our `/etc/supervisor/conf.d/some-app.conf` file looks like this:
 
-```ini
+```
 [program:some-app]
 user=deploy
 directory=/home/deploy/
