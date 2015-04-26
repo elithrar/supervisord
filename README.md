@@ -1,4 +1,4 @@
-## silverlock/supervisord
+## elithrar/supervisord
 
 A Docker image for running applications with the
 [Supervisor](http://supervisord.org/) process monitor.
@@ -22,7 +22,7 @@ Here's how to extend it with a simple example—a Go webserver container:
 # some-app
 #
 # VERSION       0.1.0
-FROM silverlock/supervisor
+FROM elithrar/supervisor
 MAINTAINER Matt Silverlock matt@eatsleeprepeat.net
 
 # create a deploy user for our app to run as
